@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      body {
+  background: linear-gradient(to right, #tombol-back-bestie, #black);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.my-photo p {
+  text-align: center;
+  padding: 3px;
+  color: greenyellow;
+  font-size: 21px;
+}
+
+.my-photo a {
+  text-align: center;
+  color: greenyellow;
+  text-decoration: none;
+}
+
+img {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 99em;
+  box-shadow: 0px 0px 10px 5px;
+  color: lightyellow;
+}
+
+.my-instagram h2 {
+  text-align: left;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 30px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 20px;
+  box-shadow: 0px 0px 10px 3px;
+  background: lightgoldenrodyellow;
+}
+
+.my-instagram a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.my-github h2 {
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 30px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 20px;
+  box-shadow: 0px 0px 10px 3px;
+  background: lightgoldenrodyellow;
+}
+
+.my-github a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.my-spotify h2 {
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 30px;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  height: 20px;
+  box-shadow: 0px 0px 10px 3px;
+  background: lightgoldenrodyellow;
+}
+
+.my-spotify a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.title {
+  text-align: center;
+}
+
+td,
+th {
+  border: 2px solid brown;
+  text-align: center;
+  padding: 10px;
+}
+
+td:hover {
+  background-color: brown;
+}
+
+th:hover {
+  background-color: brown;
+}
+
+.kepala-tabel {
+  background-color: blueviolet;
+}
+
+.tabel {
+  border-collapse: blueviolet;
+  width: 100%;
+}
+
+.tombol-bestie {
+  background-color: floralwhite;
+  color: blueviolet;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tombol-bestie a {
+  padding: 15px 25px;
+}
+
+.tombol-bestie-css {
+  background-color: floralwhite;
+  color: blueviolet;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: auto;
+}
+
+.tombol-bestie-css a {
+  padding: 15px 25px;
+}
+
+.tombol-bestie-jquery {
+  background-color: skyblue;
+  color: blueviolet;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 145px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: 429px;
+}
+
+.tombol-bestie-jquery a {
+  padding: 15px 25px;
+}
+
+.tombol-back-bestie {
+  margin-top: 40px;
+}
+
+.tombol-back-bestie a {
+  background-color: blueviolet;
+  font-size: 20px;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.tombol-back-bestie a:hover {
+  background-color: floralwhite;
+}
+
+.tombol-back-bestie-css {
+  margin-top: 40px;
+}
+
+.tombol-back-bestie-css a {
+  background-color: floralwhite;
+  font-size: 20px;
+  color: black;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.tombol-back-bestie-css a:hover {
+  background-color: floralwhite;
+}
+
+.ngubah {
+  background-color: floralwhite;
+}
+
+.ngubah:hover {
+  background-color: floralwhite;
+}
+
+.ngapus {
+  background-color: floralwhite;
+}
+
+.ngapus:hover {
+  background-color: floralwhite;
+}
+    </style>
+    <title>10 Best Friends</title>
+  </head>
+  <body>
+    <h1 class="title">The Top 10 My Best Friends</h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <table class="tabel">
+      <tr class="kepala-tabel">
+        <th>NIM</th>
+        <th>Nama</th>
+        <th>Alamat</th>
+        <th>Aksi</th>
+      </tr>
+      <tr id="row__1">
+        <td>43210045</td>
+        <td>Aditya Rukhul Prasetya</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__1">hapus</td>
+      </tr>
+      <tr id="row__2">
+        <td>43210051</td>
+        <td>Adrian Syafaaturrohman</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__2">hapus</td>
+      </tr>
+      <tr  id="row__3">
+        <td>43210026</td>
+        <td>Alief Lukman Haqiem</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__3">hapus</td>
+      </tr>
+      <tr id="row__4">
+        <td>43210052</td>
+        <td>Anisa Sabrina</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__4">hapus</td>
+      </tr>
+      <tr id="row__5">
+        <td>43210028</td>
+        <td>Ari Surahman</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__5">hapus</td>
+      </tr>
+
+      <tr id="row__6">
+        <td>43210050</td>
+        <td>Dion Azhar Hidayat</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__6">hapus</td>
+      </tr>
+
+      <tr id="row__7">
+        <td>43210044</td>
+        <td>Kania Pramesya Anhar</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__7">hapus</td>
+      </tr>
+      <tr id="row__8">
+        <td>43210017</td>
+        <td>Nurfadhilah Safitri</td>
+        <td>Kab Cirebon</td>
+        <td class="hapus" id="hapus__8">hapus</td>
+      </tr>
+      <tr id="row__9">
+        <td>43210034</td>
+        <td>Raihan Rizqia</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__9">hapus</td>
+      </tr>
+      <tr id="row__10">
+        <td>43210037</td>
+        <td>Ririn</td>
+        <td>Kota Cirebon</td>
+        <td class="hapus" id="hapus__10">hapus</td>
+      </tr>
+    </table>
+    <script>
+    $(document).ready(function(){
+      alert('');
+      $(".nama").click(function(){
+     let isi = $(this).text();
+     let isi2 = prompt('ubah nama', isi);
+     if(!isi2) return;
+     alert('nama berhasil diubah');
+     $(this).text(isi2);
+    });
+
+     $('.hapus').click(function(){
+      let yakin = confirm('Yakin mau menghapus?');
+      if(!yakin) return;
+     let id = $(this).prop('id');
+
+     let rid = id.split('__');
+
+     let baris_ke = rid[1];
+
+     $('#row__' +baris_ke).slideUp()
+   });
+
+   });
+
+ </script>
+
+
+
+         <div class="tombol-back-bestie">
+      <a onclick="alert('Kamu mau kembali?')" href="../index.html"
+        >Back to Home</a
+      >
+    </div>
+  </body>
+</html>
